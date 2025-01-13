@@ -556,3 +556,4 @@ parse_config:
       key:
         shifted: ":"
         hold: ";"
+
