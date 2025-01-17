@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   canary:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
   - W
   - L
   - Y
@@ -12,7 +12,7 @@ layers:
   - O
   - U
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - C
   - R
@@ -36,13 +36,13 @@ layers:
   - {t: /, s: '?'}
   - {t: ',', s: <}
   - .
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: LGUI}
   - {t: '@', h: NUMPAD}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: '-', h: NAV, s: _}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
   NUMPAD:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -68,9 +68,9 @@ layers:
   - {t: '6', s: ^}
   - '*'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: canary, h: toggle}
+  - {t: NUMPAD, h: toggle}
+  - {t: NAV, h: toggle}
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
   - {t: '[', s: '{'}
@@ -111,7 +111,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - '&studio_unlock'
+  - Gui+Y
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
   - Q
   - W
   - E
@@ -141,7 +141,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -165,13 +165,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: LGUI}
   - {t: QWERTY, h: toggle}
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: QWERTY, h: toggle}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - {t: NUMPAD, h: toggle}
+  - $$mdi:apple-keyboard-shift$$
   FPS:
   - $$mdi:keyboard-tab$$
   - '3'
