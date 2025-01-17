@@ -107,10 +107,10 @@
 
         canary {
             bindings = <
-&kp TAB     &kp W  &kp L  &kp Y            &kp P          &kp K               &kp Z      &kp F        &kp O          &kp U      &kp SINGLE_QUOTE  &kp RIGHT_ALT
-&kp LCTRL   &kp C  &kp R  &kp S            &kp T          &kp B               &kp X      &kp N        &kp E          &kp I      &kp A             &kp RET
-&kp LSHIFT  &kp Q  &kp J  &kp V            &kp D          &kp G               &kp M      &kp H        &kp FSLH       &kp COMMA  &kp PERIOD        &kp ESC
-                          &mt LGUI DELETE  &lt 1 AT_SIGN  &mt LSHIFT SPACE    &kp SPACE  &lt 2 MINUS  &kp BACKSPACE
+&mt ESC TAB   &kp W  &kp L  &kp Y            &kp P          &kp K               &kp Z      &kp F        &kp O          &kp U      &kp SINGLE_QUOTE  &kp BACKSPACE
+&kp LCTRL     &kp C  &kp R  &kp S            &kp T          &kp B               &kp X      &kp N        &kp E          &kp I      &kp A             &kp RET
+&kp LSHIFT    &kp Q  &kp J  &kp V            &kp D          &kp G               &kp M      &kp H        &kp FSLH       &kp COMMA  &kp PERIOD        &kp  RIGHT_ALT
+                          &mt LGUI DELETE  &lt 1 AT_SIGN  &kp SPACE    &kp SPACE  &lt 2 MINUS  &kp LSHIFT 
             >;
         };
 
@@ -124,7 +124,7 @@
             bindings = <
 &kp CAPSLOCK  &trans        &trans        &trans        &kp EQUAL      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7     &kp N8        &kp N9  &kp PLUS      &kp BACKSPACE
 &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N4     &kp N5        &kp N6  &kp ASTERISK  &kp RET
-&trans        &trans        &trans        &kp GRAVE     &kp BACKSLASH  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N1     &kp N2        &kp N3  &kp PERIOD    &trans
+&to 0        &to 1        &to 2       &kp GRAVE     &kp BACKSLASH  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N1     &kp N2        &kp N3  &kp PERIOD    &trans
                                           &trans        &trans         &kp LSHFT               &kp SPACE              &kp MINUS  &kp NUMBER_0
             >;
         };
@@ -133,7 +133,7 @@
             bindings = <
 &ext_power EP_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_BRD    &rgb_ug RGB_BRI    &kp CARET  &kp AMPS   &kp ASTRK       &kp LPAR        &kp RPAR      &kp PAGE_UP
 &rgb_ug RGB_TOG    &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp MINUS  &kp PLUS   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
-&studio_unlock     &kp LG(Z)        &kp LG(X)        &kp LG(C)        &kp LG(V)          &kp LG(A)          &kp UNDER  &kp EQUAL  &kp LBRC        &kp RBRC        &kp PIPE      &kp PAGE_DOWN
+&kp LG(Y)          &kp LG(Z)        &kp LG(X)        &kp LG(C)        &kp LG(V)          &kp LG(A)          &kp UNDER  &kp EQUAL  &kp LBRC        &kp RBRC        &kp PIPE      &kp PAGE_DOWN
                                                      &to 3            &to 4              &kp LSHFT          &kp SPACE  &trans     &kp RALT
             >;
         };
@@ -146,10 +146,10 @@
             //                    | GUI | DEF | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T         &kp Y      &kp U  &kp I          &kp O    &kp P     &kp RIGHT_ALT
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G         &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp RET
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B         &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &to 3  &kp LSHIFT    &kp SPACE  &to 3  &kp BACKSPACE
+&mt ESC TAB    &kp Q  &kp W  &kp E     &kp R  &kp T         &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BACKSPACE
+&kp LCTRL      &kp A  &kp S  &kp D     &kp F  &kp G         &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp RET
+&kp LSHFT      &kp Z  &kp X  &kp C     &kp V  &kp B         &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_ALT
+                    &mt LGUI DELETE  &to 3  &kp SPACE    &kp SPACE  &to 1  &kp LSHIFT
             >;
         };
 
@@ -164,7 +164,7 @@
 &kp TAB    &kp NUMBER_3  &kp Q  &kp W         &kp E  &kp R        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LCTRL  &kp NUMBER_4  &kp A  &kp S         &kp D  &kp F        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp RET
 &kp LSHFT  &kp NUMBER_5  &kp Z  &kp X         &kp C  &kp V        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                                &kp NUMBER_6  &kp G  &kp SPACE    &kp SPACE  &to 0  &kp RALT
+                              &kp NUMBER_6  &kp G  &kp SPACE    &kp SPACE  &to 0  &kp RALT
             >;
         };
     };
