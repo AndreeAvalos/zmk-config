@@ -259,7 +259,7 @@ layers:
   - {t: canary, h: toggle}
   - $$mdi:apple-keyboard-option$$
   BUILD:
-  - Y
+  - $$mdi:apple-keyboard-option$$
   - V
   - Q
   - W
@@ -271,7 +271,7 @@ layers:
   - Y
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - C
+  - $$mdi:apple-keyboard-shift$$
   - X
   - A
   - S
@@ -283,8 +283,8 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '1'
-  - '2'
+  - $$mdi:apple-keyboard-control$$
+  - Y
   - '4'
   - '5'
   - '0'
