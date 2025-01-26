@@ -181,7 +181,7 @@
 &kp LCTRL  &kp NUMBER_3     &kp NUMBER_4    &kp NUMBER_5    &kp B   &kp M               &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                                             &kp ESC         &to 6   &kp SPACE           &kp SPACE  &to 0  &kp RALT
             >;
-        }
+        };
 
         BUILD {
             // --------------------------------------------------------------------------------------------------
@@ -198,6 +198,6 @@
             >;
 
 
-        }
+        };
     };
 };
