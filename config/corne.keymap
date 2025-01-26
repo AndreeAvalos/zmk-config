@@ -173,7 +173,7 @@
             // | ALT    |   1   |   Q   |   W   |   E   |   R   |-------|   =   |       |       |       |       |
             // | SHIFT  |   2   |   A   |   S   |   D   |   F   |-------|       |       |       |       |       |
             // | CTRL   |   3   |   4   |   5   |   B   |   M   |-------|       |       |       |       |       |
-                                        |  ESC  | BUILD | SPACE |-------|       |       |       |       |       |
+            //                          |  ESC  | BUILD | SPACE |-------|       |       |       |       |       |
 
             bindings = <
 &kp LALT   &kp NUMBER_1     &kp Q           &kp W           &kp E   &kp R               &kp 0      &kp U  &kp I      &kp Y    &kp P     &kp BSPC
