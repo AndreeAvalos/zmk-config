@@ -79,7 +79,7 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - .
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: FORNITE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:apple-keyboard-shift$$
@@ -211,6 +211,92 @@ layers:
   - $$mdi:keyboard-esc$$
   - '6'
   - G
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {t: canary, h: toggle}
+  - $$mdi:apple-keyboard-option$$
+  FORNITE:
+  - $$mdi:apple-keyboard-option$$
+  - '1'
+  - Q
+  - W
+  - E
+  - R
+  - '0'
+  - U
+  - I
+  - Y
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
+  - '2'
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
+  - '3'
+  - '4'
+  - '5'
+  - B
+  - M
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-esc$$
+  - {t: BUILD, h: toggle}
+  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
+  - {t: canary, h: toggle}
+  - $$mdi:apple-keyboard-option$$
+  BUILD:
+  - Y
+  - V
+  - Q
+  - W
+  - E
+  - R
+  - '0'
+  - U
+  - I
+  - Y
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - C
+  - X
+  - A
+  - S
+  - D
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '1'
+  - '2'
+  - '4'
+  - '5'
+  - '0'
+  - '3'
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-esc$$
+  - {t: FORNITE, h: toggle}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: canary, h: toggle}
