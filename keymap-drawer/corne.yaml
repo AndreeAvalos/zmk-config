@@ -45,9 +45,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   NUMPAD:
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
+  - {t: '''', s: '"'}
+  - $$mdi:arrow-up-bold$$
   - {t: '=', s: +}
   - (
   - )
@@ -57,10 +57,10 @@ layers:
   - +
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:bluetooth-off$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - '{'
   - '}'
   - {t: '4', s: $}
@@ -68,6 +68,7 @@ layers:
   - {t: '6', s: ^}
   - '*'
   - {t: '$$mdi:keyboard-return$$', type: enter}
+
   - {t: canary, h: toggle}
   - {t: NUMPAD, h: toggle}
   - {t: NAV, h: toggle}
@@ -106,7 +107,6 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '-', s: _}
-  - +
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
